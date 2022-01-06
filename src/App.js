@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './chaton.jpeg';
 import './App.css';
 
 function App() {
@@ -6,11 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
       <p>Carte d'identié </p>
+      <img src={logo} className="App-logo" alt="logo" />
         <p>Nom : BRIAULT</p>
         <p>Prénom : Julie </p>
         <p>Age : 20 ans </p>
-         
-        <img src={logo} className="App-logo" alt="logo" />
         
         <a
           className="App-link"
